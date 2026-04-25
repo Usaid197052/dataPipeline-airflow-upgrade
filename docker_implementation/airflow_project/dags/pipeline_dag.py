@@ -32,6 +32,4 @@ load_data = BashOperator(
     bash_command='python /opt/airflow/scripts/load_to_mysql.py',
     dag=dag
 )
-
-# Task order
 fetch_data >> clean_data >> load_data
