@@ -8,7 +8,6 @@ default_args = {
     'retries': 2,
 }
 
-# Define DAG
 dag = DAG(
     'data_pipeline_dag',
     default_args=default_args,
