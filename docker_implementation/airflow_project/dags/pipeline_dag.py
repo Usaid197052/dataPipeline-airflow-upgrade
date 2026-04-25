@@ -15,7 +15,6 @@ dag = DAG(
     catchup=False
 )
 
-
 fetch_data = BashOperator(
     task_id='fetch_data',
     bash_command='python /opt/airflow/scripts/fetch_api_data.py',
