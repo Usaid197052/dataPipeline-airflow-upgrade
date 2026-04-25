@@ -2,7 +2,6 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 
-# Default arguments
 default_args = {
     'owner': 'usaid',
     'start_date': datetime(2024, 1, 1),
