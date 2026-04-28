@@ -4,7 +4,7 @@ import os
 
 print("Starting API data fetch...")
 
-# API URL
+
 url = "https://jsonplaceholder.typicode.com/posts"
 
 response = requests.get(url)
