@@ -3,8 +3,6 @@ import pandas as pd
 import os
 
 print("Starting API data fetch...")
-
-
 url = "https://jsonplaceholder.typicode.com/posts"
 
 response = requests.get(url)
